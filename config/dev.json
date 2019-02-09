@@ -1,0 +1,24 @@
+{
+  "env": {
+    "url": "http://localhost:9000/#!/login"
+  },
+  "user": {
+    "client": "client@transportsystems.co",
+    "passClient": "Ts12345*",
+    "admin": "admin@transportsystems.co",
+    "passAdmin": "Ts12345*",
+    "qa": "qa@transportsystems.co",
+    "passQa": "Ts12345*"
+  },
+  "cardinals": {
+    "camara": "unahora",
+    "l1X1": 119,
+    "l1Y1": 243,
+    "l1X2": 555,
+    "l1Y2": 376,
+    "l2X1": 158,
+    "l2Y1": 221,
+    "l2X2": 640,
+    "l2Y2": 303
+  }
+}

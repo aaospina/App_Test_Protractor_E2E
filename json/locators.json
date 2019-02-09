@@ -1,0 +1,55 @@
+{
+  "login": {
+    "email": "input[id='email']",
+    "pass": "input[id='password']",
+    "loginButton": "Iniciar sesión"
+  },
+  "homePage": {
+    "create": "Crear",
+    "search": "Consultar",
+    "samplings": "Muestreos",
+    "downloadResults":"//button[@ng-if=\"analysis.status === 'SUCCEEDED'\"]/span[1]",
+    "editAnalysis":"//button[@ng-if=\"analysis.status === 'UNPROCESSED'\"]/span[1]",
+    "nextPage":"//a[@ng-click='$event.preventDefault();vm.goToNextPage()']",
+    "previousPage":"//a[@ng-click='$event.preventDefault();vm.goToPreviousPage()']",
+    "pages":"//li[@ng-repeat='page in vm.pages']/a",
+    "logout":"//a[@ui-sref='logout']"
+  },
+  "newAnalysis": {
+    "name": "vm.analysis.name",
+    "buttonLocation": "//button[@ng-click='vm.showLatLngModal()']",
+    "map": "//ng-map",
+    "point": "//button[@ng-click='vm.setLatLng()']",
+    "deleteLocation": "//button[@ng-click='vm.clearLatLng()']",
+    "type": "",
+    "folder": "//span[contains(text(),'regressiontest')]",
+    "ngClickCreate": "Crear Aforo",
+    "wrapperModel": "vm.analysis.type",
+    "wrapperOption": "string:SIMPLE_VOLUMES"
+  },
+  "movements": {
+    "newMovement": "vm.createMovement()",
+    "name": "vm.movement.name",
+    "camaraWrapper": "vm.movement.cameraDirectory",
+    "wrapperOption": "unahora",
+    "canvas": "//canvas[1]",
+    "saveMovement": "Guardar Movimiento",
+    "confirmation": "Continuar",
+    "edit": "//button[@ng-click='vm.editMovement({movement: vm.movement})']",
+    "delete": "//button[@ng-click='vm.deleteMovement({movementId: vm.movement.id})']",
+    "comeBack": "Volver",
+    "process": "Procesar Aforo",
+    "camara": "vm.movement.cameraDirectory"
+  },
+  "sampling": {
+    "results":"analysisSample in vm.analysisSamples",
+    "bottonResults":"button",
+    "optCounting":"vm.count(videoSample.id)",
+    "optSeeResults":"vm.viewResults(videoSample.id",
+    "return":"vm.viewVideoSamples()",
+    "cancel":"vm.cancel()",
+    "optGetLink":"videoSample in vm.videoSamples",
+    "download1":"button.btn-success",
+    "download2":"a"
+  }
+}

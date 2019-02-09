@@ -1,0 +1,30 @@
+{
+	"name": "ProtractorTest",
+	"version": "0.0.0",
+	"description": "ProtractorTest",
+	"main": "app.js",
+	"author": {
+		"name": "Raman",
+		"email": ""
+	},
+	"devDependencies": {
+		"astrolabe": "0.3.6",
+		"config": "^2.0.2",
+		"cross-env": "^5.2.0",
+		"exceljs": "^1.6.3",
+		"jasmine-allure-reporter": "^1.0.2",
+		"jasmine-reporters": "2.0.0",
+		"protractor": "^5.4.2",
+		"selenium-webdriver": "^3.6.0",
+		"winston": "1.0.1"
+	},
+	"dependencies": {
+		"file-system": "^2.2.2",
+		"fs": "0.0.1-security",
+		"jasmine-data-provider": "^2.2.0",
+		"nodemailer": "^4.6.8",
+		"path": "^0.12.7",
+		"promise": "^7.0.4",
+		"xlsx": "^0.13.4"
+	}
+}

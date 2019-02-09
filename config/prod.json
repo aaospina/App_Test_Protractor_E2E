@@ -1,0 +1,20 @@
+{
+  "login": {
+    "userName": "a.ospina+client@transportsystems.co",
+    "password": "Ts12345*"
+  },
+  "environment": {
+    "url": "https://qa-deodata.transportsystems.co/#!/login"
+  },
+  "aditionals": {
+    "camara": " Camara 1 ",
+    "l1X1": 90,
+    "l1Y1": 227,
+    "l1X2": 397,
+    "l1Y2": 432,
+    "l2X1": 143,
+    "l2Y1": 213,
+    "l2X2": 449,
+    "l2Y2": 421
+  }
+}
