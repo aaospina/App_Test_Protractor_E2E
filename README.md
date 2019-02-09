@@ -1,7 +1,7 @@
 ### Install protractor
-npm install -g protractor
-webdriver-manager update
-webdriver-manager start
+* npm install -g protractor
+* webdriver-manager update
+* webdriver-manager start
 
 ### Instalar dependencias
 npm install
